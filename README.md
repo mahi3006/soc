@@ -84,4 +84,4 @@ In the upcoming weeks, I plan to solve more problems to reinforce these concepts
 ---
 
 ## 🌐 GitHub Repository Link
-(https://github.com/mahi3006/soc/new/master)
+(https://github.com/mahi3006/soc/tree/master)
