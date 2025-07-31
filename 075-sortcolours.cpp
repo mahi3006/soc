@@ -1,5 +1,5 @@
 class Solution:
-    def sortColors(self, nums):
+    def sortColors(self, nums) :
         l, r = 0, len(nums) - 1
         i = 0
         while i <= r:
