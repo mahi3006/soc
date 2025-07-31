@@ -1,5 +1,5 @@
 class Solution:
-    def spiralOrder(self, matrix):
+    def spiralOrder(self, matrix) :
         res = []
         while matrix:
             res += matrix.pop(0)
