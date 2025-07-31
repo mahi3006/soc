@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    int n, m;
+    cin >> n >> m;
+    vector<int> a(n);
+    for (int &x : a) cin >> x;
+    bool ok = true;
+    for (int i = 1; i < n; ++i)
+        if (abs(a[i] - a[i-1]) < m) ok = false;
+    cout << (ok ? "YES" : "NO") << '\n';
+}
