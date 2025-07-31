@@ -1,0 +1,15 @@
+class Solution:
+    def copyRandomList(self, head):
+        if not head:
+            return None
+        m = {}
+        curr = head
+        while curr:
+            m[curr] = Node(curr.val)
+            curr = curr.next
+        curr = head
+        while curr:
+            m[curr].next = m.get(curr.next)
+            m[curr].random = m.get(curr.random)
+            curr = curr.next
+        return m[head]
